@@ -1,0 +1,24 @@
+GET http://localhost:3000/subscribers
+
+###
+GET http://localhost:3000/subscribers/601e6ed8750f16bf9d54228e
+
+###
+POST http://localhost:3000/subscribers
+Content-Type: application/json
+
+{
+    "name": "Tatiana",
+    "subscribedToChannel": "QueDuS"
+}
+
+###
+DELETE http://localhost:3000/subscribers/6019650c750f16bf9d54228ds
+
+###
+PATCH http://localhost:3000/subscribers/601e6ed8750f16bf9d54228e
+Content-Type: application/json
+
+{
+    "name": "PATATE"
+}
